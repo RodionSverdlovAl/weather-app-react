@@ -3,8 +3,8 @@ import React from "react";
 const Form = (props) =>{
     return (
         <form onSubmit={props.weatherMethod}>
-                <input type = "text" name="city" placeholder="Город"></input>
-                <button>Получить погоду</button>
+                <input class = "input" type = "text" name="city" placeholder="Город"></input>
+                <button class = "button">Получить погоду</button>
         </form>
     )
 }
